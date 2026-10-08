@@ -8,6 +8,27 @@ It is built on an **everything-is-a-plugin** architecture and powered by [Cordis
 
 Documentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+## About this fork (lmctl-ai)
+
+This repository is a fork of [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) kept by the
+[lmctl](https://lmctl.com) team. It is based on, and compatible with, DeepSeek Harness; it is not an official DeepSeek project and
+carries no endorsement. License: MIT, unchanged ([LICENSE](LICENSE), Copyright (c) 2026 DeepSeek).
+
+We keep it to build `dsh` on machines where the published npm package fails (arm64), to read the real RPC code when `lmctl`'s `dsh`
+provider must follow a protocol change, and to hold what we learned. There are **no code changes** relative to upstream; only this
+section and [`durable-memory/`](durable-memory/index.md) are added. Start with
+[why-this-fork](durable-memory/why-this-fork.md).
+
+### Upstream reports
+
+Upstream does not accept external pull requests (see its [CONTRIBUTING.md](CONTRIBUTING.md)); problems are reported in its GitHub
+Discussions. Every report we file is listed here with its upstream id, and in
+[upstream-reports](durable-memory/upstream-reports.md).
+
+| Our issue | Upstream PR / Discussion id | Status |
+|---|---|---|
+| none filed yet | | |
+
 ## Developer preview
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**
